@@ -1,4 +1,9 @@
-#/usrbin/python
+#/usr/bin/python3
 
-print("Hello World, Wellcome to the world of Python Programming.");
+class hello:
+  def __init__(self, name = 'Python Develoeper'):
+    print("Hello " + str(name) + ", Wellcome to the world of Python Programming.");
+
+H = hello();
+P = hello("Hashmi Developer");
 
