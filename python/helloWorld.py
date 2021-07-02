@@ -1,7 +1,7 @@
 #/usr/bin/python3
 
 class hello:
-  def __init__(self, name = 'Python Develoeper'):
+  def __init__(self, name = 'Python Developer'):
     print("Hello " + str(name) + ", Wellcome to the world of Python Programming.");
 
 H = hello();
