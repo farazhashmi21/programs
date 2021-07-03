@@ -1,0 +1,14 @@
+New Decision:
+
+Designation: Python Developer
+
+Technologies:
+
+1) Python Programming Language.
+2) Django Web Framework.
+3) HTML, CSS and jQuery.
+
+Starts From: July-01-2021
+End To: December-31-2021
+
+
