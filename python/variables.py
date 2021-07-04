@@ -2,6 +2,8 @@
 
 # Python Programming Variables Example.
 
+import random
+
 x = 5
 y = "Jone"
 print(x)
@@ -56,3 +58,24 @@ def multi():
   print(result)
 multi()
 
+def PythonNumerics():
+  x = 12 #int variable.
+  y = 43.34 # Float variable.
+  z = 10j # Complex variable.
+  print(str(x) + " = " + str(type(x)))
+  print(str(y) + " = " + str(type(y)))
+  print(str(z) + " = " + str(type(z)))
+  p = (12e2)
+  print(str(p) + " = " + str(type(p)))
+  Q = z*x
+  print(str(Q) + " = " + str(type(Q)))
+  X = float(x)
+  Y = complex(y)
+  Z = int(y)
+  print(str(X) + " = " + str(type(X)))
+  print(str(Y) + " = " + str(type(Y)))
+  print(str(Z) + " = " + str(type(Z)))
+  rand = random.randrange(1, 100)
+  print(str(rand))
+
+PythonNumerics()
