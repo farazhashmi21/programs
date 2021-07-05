@@ -78,4 +78,33 @@ def PythonNumerics():
   rand = random.randrange(1, 100)
   print(str(rand))
 
-PythonNumerics()
+# PythonNumerics()
+
+def pythonSrings():
+    greetings = "Hello World";
+    print(greetings)
+    gR = """This
+                Is
+                    Also
+                        A
+                            String"""
+    print(gR)
+    print(gR[3])
+# pythonSrings();
+def stringLoop():
+    greetings = "Hello World"
+    for pakistan in greetings:
+        print(pakistan)
+    PakistanLength = len(greetings)
+    print(PakistanLength)
+    checkWord = ("World" in greetings)
+    if checkWord == True:
+        print(greetings)
+    else:
+        print("Nop!")
+    checkWord = "PiP" not in greetings
+    if checkWord == False:
+        print(greetings)
+    else:
+        print("NOP!")
+stringLoop()
