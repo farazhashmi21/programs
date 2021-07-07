@@ -108,3 +108,27 @@ def stringLoop():
     else:
         print("NOP!")
 stringLoop()
+
+j = "Pakistan"
+p = j[2:8]
+print(p)
+k = j[:3]
+print(k)
+u = j[2:]
+print(u)
+w = j[-8:-2]
+print(w)
+upperCase = j.upper()
+print(upperCase)
+lowerCase = j.lower()
+print(lowerCase)
+e = " Hello Pakistan "
+q = e.strip()
+print(q)
+zx = "Pakstan - Zindabad"
+xz = zx.split("-")
+print(xz)
+a = "Pakistan"
+b = "Zindabad"
+c = a + b
+print(a + " + " + b + " = " + c +".")
