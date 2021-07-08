@@ -1,0 +1,8 @@
+Wordpress Login Details:
+
+Site Title:
+Site Database:
+Admin Username:
+Admin Password:
+Admin Email Address: 
+
