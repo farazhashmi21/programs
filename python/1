@@ -151,14 +151,6 @@ else:
 vari = "Pakistan"
 print(bool(15))
 yea = 46.64
-aey = isinstance(yea,float)
+aey = isinstanceof(yea,float)
 print(aey)
-x = y = [2,3,4]
-print(x in y)
-x = y = [24]
-print(x not in y)
-x = y = 24
-print(x is y)
-y = 77
-print(y is not x)
 
