@@ -108,3 +108,57 @@ def stringLoop():
     else:
         print("NOP!")
 stringLoop()
+
+j = "Pakistan"
+p = j[2:8]
+print(p)
+k = j[:3]
+print(k)
+u = j[2:]
+print(u)
+w = j[-8:-2]
+print(w)
+upperCase = j.upper()
+print(upperCase)
+lowerCase = j.lower()
+print(lowerCase)
+e = " Hello Pakistan "
+q = e.strip()
+print(q)
+zx = "Pakstan - Zindabad"
+xz = zx.split("-")
+print(xz)
+a = "Pakistan"
+b = "Zindabad"
+c = a + b
+print(a + " + " + b + " = " + c +".")
+var = "Required age is {} years";
+aG = 72
+tex = var.format(aG)
+print(tex)
+a,b,c = 12, 16, 24;
+eR = "Number {2}, Number {0} and Number {1}";
+tex = eR.format(a,b,c)
+print(tex)
+tex = "I am \"The Developer\" in Python Programming"
+print(tex)
+tex = (20 > 10)
+print(tex)
+if tex:
+    print("Yea 20 is greater than 10.")
+else:
+    print("Nop! That's not correct.")
+vari = "Pakistan"
+print(bool(15))
+yea = 46.64
+aey = isinstance(yea,float)
+print(aey)
+x = y = [2,3,4]
+print(x in y)
+x = y = [24]
+print(x not in y)
+x = y = 24
+print(x is y)
+y = 77
+print(y is not x)
+
