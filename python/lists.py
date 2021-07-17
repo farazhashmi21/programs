@@ -1,0 +1,27 @@
+# Python Lists:
+
+fruits = ["Mango", "Strwayberry", "Banana"]
+print(fruits)
+fruits.append("Apple")
+print(fruits)
+fruits.append("Mango")
+print(fruits)
+fruits.reverse()
+print(fruits)
+fruits.pop()
+print(fruits)
+fruits.sort()
+print(fruits)
+print("Fruits List Length: "+ str(len(fruits)))
+print("Fruits Count: " + str(fruits.count("Strwayberry")))
+fruits.append("Strwayberry")
+fruits.append("Strwayberry")
+print("Fruits Count: " + str(fruits.count("Strwayberry")))
+numbers = [12, 36.63, True]
+print(numbers)
+print(len(numbers))
+numbers.append("Pakistan")
+print(numbers)
+print(len(numbers))
+MyCountry = list(("Pakistan","Karachi","North Naizamabad","74700"))
+print(MyCountry)
