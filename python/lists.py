@@ -44,3 +44,15 @@ print(fruits[:-7])
 print(fruits[2:5])
 if "Strawberries" in fruits:
   print("YES it is present in the list @ position no.: " + str(fruits.index("Strawberries")))
+fruits[1] = "Orange"
+print(fruits[1])
+print(fruits)
+fruits[2:4] = ["Melon", "Watermelon", "Pumpkin"]
+print(fruits)
+print(len(fruits))
+fruits.append("Mangos")
+print(fruits)
+fruits[1:4] = ["a","b",'c',"d","E"]
+print(fruits)
+fruits.insert(6,"Peach")
+print(fruits)
