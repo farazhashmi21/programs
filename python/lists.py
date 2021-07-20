@@ -56,3 +56,23 @@ fruits[1:4] = ["a","b",'c',"d","E"]
 print(fruits)
 fruits.insert(6,"Peach")
 print(fruits)
+first_list = ['China', 'Pakistan', 'Turkey']
+second_list = ["Asia", "Europe","Africa"]
+first_list.extend(second_list)
+print(first_list)
+thirdSet = {"appli","Pi","Cherry"}
+second_list.extend(thirdSet)
+print(second_list)
+second_list.remove("Africa")
+print(second_list)
+print(fruits)
+fruits.pop(1)
+print(fruits)
+fruits.pop()
+print(fruits)
+del fruits[4]
+print(fruits)
+# del fruits # Actually Delete fruits completely, no memory location or as no defined
+# print(fruits)
+fruits.clear()
+print(fruits)

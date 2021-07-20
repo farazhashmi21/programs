@@ -1,3 +1,4 @@
+echo $(git pull);
 echo $(git init);
 echo $(git add .);
 echo $(git commit -m "Program Updates");
