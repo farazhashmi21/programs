@@ -1,8 +1,8 @@
 Wordpress Login Details:
 
-Site Title:
-Site Database:
-Admin Username:
-Admin Password:
-Admin Email Address: 
-
+Site Title: Wordpress Web
+Site Database: wordpressweb
+Admin Username: adminfarazhashmi
+Admin Password: k7!rMf^yxnANN4FqZY
+Admin Email Address: developerfarazhashmi@yahoo.com
+Table Prefix: wp_wordpressweb_
