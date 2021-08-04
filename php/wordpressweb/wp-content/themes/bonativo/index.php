@@ -1,3 +1,8 @@
+<?php
+#  echo get_template_directory_uri();
+#  echo "<br/>";
+#  echo bloginfo("template_directory");
+?>
 <!DOCTYPE html>
 <!--
 	Bonativo by TEMPLATE STOCK
@@ -10,18 +15,18 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bonativo Free HTML5 Responsive Template | Template Stock</title>
+        <title><?php bloginfo('name'); ?></title>
 
         <!-- Bootstrap -->
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <link href="css/flexslider.css" rel="stylesheet" type="text/css">
-        <link href="icons/css/ionicons.min.css" rel="stylesheet" type="text/css">
-        <link href="icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/css/style.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo get_template_directory_uri(); ?>/css/flexslider.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo get_template_directory_uri(); ?>/icons/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link href="<?php echo get_template_directory_uri(); ?>/icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
        
         <!--revolution slider setting css-->
-        <link href="rs-plugin/css/settings.css" rel="stylesheet">
-        <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo get_template_directory_uri(); ?>/rs-plugin/css/settings.css" rel="stylesheet">
+        <link href="<?php echo get_template_directory_uri(); ?>/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -73,7 +78,7 @@
                     <!-- SLIDE 1 -->
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
                         <!-- MAIN IMAGE -->
-                        <img src="images/bg-1.jpg" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/bg-1.jpg" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption slider-title" data-x="center" data-y="center"  data-voffset="-30" data-speed="500" data-start="1200" data-easing="Power4.easeInOut">
@@ -92,7 +97,7 @@
                     <!-- SLIDE 2 -->
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="1500">
                         <!-- MAIN IMAGE -->
-                        <img src="images/bg-3.jpg" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/bg-3.jpg" alt="desk" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
 
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1 -->
@@ -774,7 +779,6 @@
                                 </div>
                             </div>
                         </form>
-
                     </div>
                 </div>
             </div>
@@ -792,19 +796,19 @@
             </div>
         </footer>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/moderniz.min.js" type="text/javascript"></script>
-        <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js" type="text/javascript"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/moderniz.min.js" type="text/javascript"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.1.3.js" type="text/javascript"></script>
         <!-- bootstrap js-->
-        <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-        <script type="text/javascript" src="js/parallax.min.js"></script> 
-        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>	       
-        <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.flexslider-min.js"></script>
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/parallax.min.js"></script> 
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.prettyPhoto.js"></script>	       
+        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jqBootstrapValidation.js"></script>
         <!--revolution slider scripts-->
-        <script src="rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
-        <script src="rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>  
-        <script src="js/template.js" type="text/javascript"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>  
+        <script src="<?php echo get_template_directory_uri(); ?>/js/template.js" type="text/javascript"></script>
 
     </body>
 </html>
