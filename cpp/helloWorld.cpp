@@ -1,14 +1,12 @@
 #include<iostream>
 
-using namespace std;
-
 class helloWorld{
 
   public:
 
     void displ(){
 
-      cout << "Hello World" << endl;
+      std::cout << "Hello World" << std::endl;
 
     }
 
