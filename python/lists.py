@@ -128,6 +128,51 @@ def loop_through_while():
   while i < quantity:
     print(fruits_basket[i])
     i = i + 1
+def list_without_comprehesion():
+  print("List Without Comprehesion")
+  fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+  new_list = []
+  for a in fruits:
+    if "k" in a:
+      new_list.append(a)
+    for k in new_list:
+      print(k)
+def list_with_comprehension():
+  print("List With Comprehension")
+  fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+  newlist = (x for x in fruits if "k" in x)
+  for n in newlist:
+    print(n)
+def sort_list():
+  fruits = ["orange", "mango", "kiwi", "pineapple", "banana"]
+  print("Fruits without Sort:")
+  for f in fruits:
+    print(f)
+  fruits.sort();
+  print("\n")
+  print("Fruits after sorting:")
+  for sor in fruits:
+    print(sor)
+def reverse_sort():
+    fruits = ["orange", "mango", "kiwi", "pineapple", "banana"]
+    print("\n")
+    print("Fruits without sorting:")
+    for s in fruits:
+      print(s)
+    print("\n")
+    fruits.sort(reverse = True)
+    print("Fruits after sorting")
+    for p in fruits:
+      print(p)
+def myF(n):
+  return abs(n - 50)
+
+def modify_sorting():
+  number_list = [100, 50, 65, 82, 23]
+  print("Without sorting:")
+  print(number_list)
+  number_list.sort(key = myF)
+  print(number_list)
 
 #sampleFileName = "TestFile.txt"
 #sampleTextToWrite = "#" + sampleFileName
@@ -136,5 +181,11 @@ def loop_through_while():
 #ReadAFile(sampleFileName)
 #RemoveAFile(sampleFileName)
 
-loop_list()
-loop_through_while()
+#loop_list()
+#loop_through_while()
+#list_without_comprehesion()
+#list_with_comprehension()
+#sort_list()
+#reverse_sort()
+#modify_sorting()
+pyLists()
