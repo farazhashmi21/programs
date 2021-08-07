@@ -115,10 +115,26 @@ def RemoveAFile(filetoremove):
     print(str(get_file_to_remove) + " file has been removed.")
   else:
     print(str(get_file_to_remove) + " file not found")
+def loop_list():
+  print("FOR loop Example:")
+  fruits = ['apple', 'mango', 'orange']
+  for fruit in fruits:
+    print(fruit)
+def loop_through_while():
+  print("WHILE loop example")
+  fruits_basket = ['apple','mango','grapes']
+  i = 0
+  quantity = len(fruits_basket)
+  while i < quantity:
+    print(fruits_basket[i])
+    i = i + 1
 
-sampleFileName = "TestFile.txt"
-sampleTextToWrite = "#" + sampleFileName
-CreateAFile(sampleFileName)
+#sampleFileName = "TestFile.txt"
+#sampleTextToWrite = "#" + sampleFileName
+#CreateAFile(sampleFileName)
 #WriteAFile(sampleFileName, sampleTextToWrite)
 #ReadAFile(sampleFileName)
-RemoveAFile(sampleFileName)
+#RemoveAFile(sampleFileName)
+
+loop_list()
+loop_through_while()
