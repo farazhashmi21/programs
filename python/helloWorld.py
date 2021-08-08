@@ -33,8 +33,8 @@ class hello:
 H = hello();
 P = hello("Hashmi Developer");
 
-FileNameToManipulate = "TestFile.php"
-H.CreateAFile(FileNameToManipulate)
-H.WriteAFile(FileNameToManipulate,"<?php echo 'Hello World' ?>")
-H.ReadAFile(FileNameToManipulate)
-H.RemoveAFileFromTheServer(FileNameToManipulate)
+#FileNameToManipulate = "TestFile.php"
+#H.CreateAFile(FileNameToManipulate)
+#H.WriteAFile(FileNameToManipulate,"<?php echo 'Hello World' ?>")
+#H.ReadAFile(FileNameToManipulate)
+#H.RemoveAFileFromTheServer(FileNameToManipulate)
