@@ -173,19 +173,20 @@ def modify_sorting():
   print(number_list)
   number_list.sort(key = myF)
   print(number_list)
+def list_copy():
+  list_a = ["carrot","potato", "tomato"]
+  print("Content of List A:")
+  for a in list_a:
+    print(a)
+  list_b = list_a.copy()
+  print("Content of List B:")
+  for b in list_b:
+    print(b)
+  print("Content of List C:")
+  list_c = list(list_b)
+  list_c.sort(reverse = True)
+  for c in list_c:
+    print(c)
 
-#sampleFileName = "TestFile.txt"
-#sampleTextToWrite = "#" + sampleFileName
-#CreateAFile(sampleFileName)
-#WriteAFile(sampleFileName, sampleTextToWrite)
-#ReadAFile(sampleFileName)
-#RemoveAFile(sampleFileName)
+list_copy()
 
-#loop_list()
-#loop_through_while()
-#list_without_comprehesion()
-#list_with_comprehension()
-#sort_list()
-#reverse_sort()
-#modify_sorting()
-pyLists()
