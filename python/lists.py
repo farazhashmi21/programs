@@ -1,5 +1,6 @@
 # Python Lists:
 import os
+#import django
 def pyLists():
   fruits = ["Mango", "Strwayberry", "Banana"]
   print(fruits)
@@ -187,6 +188,23 @@ def list_copy():
   list_c.sort(reverse = True)
   for c in list_c:
     print(c)
+def join_lists():
+  print("\nMethods# 01:\n")
+  listA = [1,2,3,4]
+  listB = [5,6,7,8]
+  sum_list = listA + listB
+  print(sum_list)
+  print("\nMethod# 02:\n")
+  listA.append(listB)
+  print(listA)
+  print("\nMethod# 03:\n")
+  listA.extend(listB)
+  print(listA)
+  print("\n")
 
-list_copy()
+def display_the_dgango_version():
+  get_dango_version = django.get_version()
+  print("You are using Dango: " + str(get_dgango_version)+"v.")
+
+pyLists()
 
