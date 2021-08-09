@@ -52,7 +52,15 @@ class pythonTuple:
         print(b)
         print(c)
         print(d)
-        
+        z = ('a','b','c') 
+        (a,*c,b) = z
+        print(a)
+        print(c)
+        print(b)
+        tuple_into_four = (tupleSum * 4)
+        for tif in tuple_into_four:
+            print(tif)
+
 pT = pythonTuple()
 pT.tuple_example()
 
