@@ -28,7 +28,31 @@ class pythonTuple:
         else:
             print("Red Lentil is not found in lentils.")
             print("The values are: " + str(lentils))
-
+        tuple_into_list = list(lentils)
+        tuple_into_list.append("Pink")
+        print(type(tuple_into_list))
+        print(str(tuple_into_list))
+        list_into_tuple = tuple(tuple_into_list)
+        print(type(list_into_tuple))
+        print(str(list_into_tuple))
+        tupleA = (1,2,3)
+        tupleB = (4,5,6)
+        tupleSum = (tupleA + tupleB)
+        print(str(tupleA) + " + " + str(tupleB) + " = " + str(tupleSum) + ".")
+        b = ('a','b','c') # Packing
+        print(type(b))
+        (d,e,f) = b # Unpacking
+        print(d)
+        print(e)
+        print(f)
+        c = ('a','e','i','o','u')
+        print(c)
+        (a,b,c,*d) = c
+        print(a)
+        print(b)
+        print(c)
+        print(d)
+        
 pT = pythonTuple()
 pT.tuple_example()
 
