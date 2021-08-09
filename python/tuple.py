@@ -21,6 +21,13 @@ class pythonTuple:
             print(lent)
         pick_one = lentils[2]
         print(pick_one)
+        print(lentils[-2])
+        print(lentils[1:])
+        if "Red Lentil" in lentils:
+            print("Yes it is present @ index no. " + str(lentils.index("Red Lentil")))
+        else:
+            print("Red Lentil is not found in lentils.")
+            print("The values are: " + str(lentils))
 
 pT = pythonTuple()
 pT.tuple_example()
