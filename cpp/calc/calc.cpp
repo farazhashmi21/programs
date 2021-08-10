@@ -5,35 +5,35 @@
 
 double n,v,r;
 
-void addition(double num, double var){
+double addition(double num, double var){
 	n = num;
 	v = var;
 	r = (n + v);
 	return r;
 }
-void substraction(double num, double var){
+double substraction(double num, double var){
 	n = num;
 	v = var;
 	r = (n - v);
 	return r;
 }
-void multiplication(double num, double var){
+double multiplication(double num, double var){
 	n = num;
 	v = var;
 	r = (n * v);
 	return r;
 }
-void division(double num, double var){
+double division(double num, double var){
 	n = num;
 	v = var;
 	r = (n / v);
 	return r;
 }
-
-void modulus(double num, double var){
+/**
+double modulus(double num, double var){
 	n = num;
 	v = var;
 	r = (n % v);
 	return r;
  }
- 
+**/

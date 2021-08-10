@@ -1,8 +1,8 @@
 // Functions.h
 
 //double numm,varr,result;
-void addition(double num, double var);
-void substraction(double num, double var);
-void multiplication(double num, double var);
-void division(double num, double var);
-void modulus(double num, double var);
+double addition(double num, double var);
+double substraction(double num, double var);
+double multiplication(double num, double var);
+double division(double num, double var);
+//double modulus(double num, double var);
