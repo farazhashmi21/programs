@@ -22,6 +22,6 @@ int main(){
 	std::cin >> number;
 	std::cout << "Enter another number: " << std::endl;
 	std::cin >> vari;
-    displ(number, vari)
+    displ(number, vari);
 	return 0;
 }
