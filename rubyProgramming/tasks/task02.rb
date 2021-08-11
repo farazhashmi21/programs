@@ -1,0 +1,5 @@
+puts("Task: Write a program which asks for a person's favorite number. Have your program add one to the number, then suggest the result as a bigger and better favorite number. (Do be tactful about it, though.)")
+puts("Enter your favourite number: ")
+favouriteNumber = gets.chomp()
+biggerAndBetterFavouriteNumber = favouriteNumber.to_i() + 1.to_i()
+puts(favouriteNumber.to_s() + " is a nice number, but what about " + biggerAndBetterFavouriteNumber.to_s() + " han. What do you think?")

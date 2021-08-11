@@ -1,0 +1,8 @@
+Site Name: Discussions
+Admin username: adminfarazhashmi
+Admin password: eR%&84sW
+Admin Email: developerfarazhashmi@yahoo.com
+Database: discussions
+Database Table Prefix: phpbb_discussions_
+Hostname: localhost
+MySql Port: 3306
