@@ -10,9 +10,13 @@ class index{
 	}
 	public function directions(){?>
 		<ol>
-			<li>CPP</li>
+			<li>Java</li>
 			<li>Perl</li>
 			<li><a href="http://hashmiwebsol/php/index.php" title="PHP Scripting">PHP</a></li>
+			<li>Ruby</li>
+			<li>CPP</li>
+			<li>Dotnet</li>
+			<li>Shell</li>
 			<li>Python</li>
 		</ol>
 	<?php }
