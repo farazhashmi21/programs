@@ -12,7 +12,7 @@ class index{
 		<ol>
 			<li>CPP</li>
 			<li>Perl</li>
-			<li>PHP</li>
+			<li><a href="http://hashmiwebsol/php/index.php" title="PHP Scripting">PHP</a></li>
 			<li>Python</li>
 		</ol>
 	<?php }

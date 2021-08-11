@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <body data-spy="scroll" data-target=".navbar" data-offset="80">
+    <body data-spy="scroll" data-target=".navbar" data-offset="80" <?php body_class(); ?>>
 
 
         <!-- Static navbar -->

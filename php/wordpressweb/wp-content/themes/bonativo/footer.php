@@ -24,6 +24,6 @@
         <script src="<?php echo bloginfo("template_directory");?>/rs-plugin/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
         <script src="<?php echo bloginfo("template_directory");?>/rs-plugin/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>  
         <script src="<?php echo bloginfo("template_directory");?>/js/template.js" type="text/javascript"></script>
-
+        <?php wp_footer(); ?>
     </body>
 </html>
