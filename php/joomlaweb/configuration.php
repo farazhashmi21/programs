@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br />Please check back again soon.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'Website';
+	public $sitename = 'Joomla Web';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -14,9 +14,9 @@ class JConfig {
 	public $debug_lang_const = '1';
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
-	public $user = 'developerFizzaHashmi';
-	public $password = 'P46q11ZC5PsRBohJ';
-	public $db = 'webworld';
+	public $user = 'developerfarazhashmi';
+	public $password = 'Ct56*#lA';
+	public $db = 'joomlaweb';
 	public $dbprefix = 'j21f7_';
 	public $live_site = '';
 	public $secret = 'xHY1dvwPBjopMDuG';
@@ -32,7 +32,7 @@ class JConfig {
 	public $offset = 'UTC';
 	public $mailonline = '1';
 	public $mailer = 'mail';
-	public $mailfrom = 'developerFizzaHashmi345@gmail.com';
+	public $mailfrom = 'developerfarazhashmi@yahoo.com';
 	public $fromname = 'Website';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
@@ -57,8 +57,8 @@ class JConfig {
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
 	public $feed_email = 'none';
-	public $log_path = '/opt/lampp/htdocs/sites/experiment/website/administrator/logs';
-	public $tmp_path = '/opt/lampp/htdocs/sites/experiment/website/tmp';
+	public $log_path = '/home/farazhashmi/development/logs';
+	public $tmp_path = '/home/farazhashmi/development/logs/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $shared_session = '0';
