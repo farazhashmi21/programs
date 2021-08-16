@@ -35,3 +35,10 @@
 /home/muhammadfaraz/programming/DotNet/myAspWeb/obj/Debug/netcoreapp3.1/myAspWeb.pdb
 /home/muhammadfaraz/programming/DotNet/myAspWeb/obj/Debug/netcoreapp3.1/myAspWeb.genruntimeconfig.cache
 /home/muhammadfaraz/programming/DotNet/myAspWeb/obj/Debug/netcoreapp3.1/myAspWeb.csproj.CopyComplete
+/home/farazhashmi/development/learnings/programs/DotNet/myAspWeb/obj/Debug/netcoreapp3.1/myAspWeb.csproj.AssemblyReference.cache
+/home/farazhashmi/development/learnings/programs/DotNet/myAspWeb/obj/Debug/netcoreapp3.1/myAspWeb.GeneratedMSBuildEditorConfig.editorconfig
+/home/farazhashmi/development/learnings/programs/DotNet/myAspWeb/obj/Debug/netcoreapp3.1/myAspWeb.AssemblyInfoInputs.cache
+/home/farazhashmi/development/learnings/programs/DotNet/myAspWeb/obj/Debug/netcoreapp3.1/myAspWeb.AssemblyInfo.cs
+/home/farazhashmi/development/learnings/programs/DotNet/myAspWeb/obj/Debug/netcoreapp3.1/myAspWeb.csproj.CoreCompileInputs.cache
+/home/farazhashmi/development/learnings/programs/DotNet/myAspWeb/obj/Debug/netcoreapp3.1/myAspWeb.dll
+/home/farazhashmi/development/learnings/programs/DotNet/myAspWeb/obj/Debug/netcoreapp3.1/myAspWeb.pdb

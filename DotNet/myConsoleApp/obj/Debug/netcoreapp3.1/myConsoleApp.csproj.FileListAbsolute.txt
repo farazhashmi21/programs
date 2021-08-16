@@ -24,3 +24,17 @@
 /home/muhammadfaraz/programming/DotNet/myConsoleApp/obj/Debug/netcoreapp3.1/myConsoleApp.dll
 /home/muhammadfaraz/programming/DotNet/myConsoleApp/obj/Debug/netcoreapp3.1/myConsoleApp.pdb
 /home/muhammadfaraz/programming/DotNet/myConsoleApp/obj/Debug/netcoreapp3.1/myConsoleApp.genruntimeconfig.cache
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/bin/Debug/netcoreapp3.1/myConsoleApp
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/obj/Debug/netcoreapp3.1/myConsoleApp.csproj.AssemblyReference.cache
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/obj/Debug/netcoreapp3.1/myConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/obj/Debug/netcoreapp3.1/myConsoleApp.AssemblyInfoInputs.cache
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/obj/Debug/netcoreapp3.1/myConsoleApp.AssemblyInfo.cs
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/obj/Debug/netcoreapp3.1/myConsoleApp.csproj.CoreCompileInputs.cache
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/obj/Debug/netcoreapp3.1/myConsoleApp.dll
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/obj/Debug/netcoreapp3.1/myConsoleApp.pdb
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/bin/Debug/netcoreapp3.1/myConsoleApp.deps.json
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/bin/Debug/netcoreapp3.1/myConsoleApp.runtimeconfig.json
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/bin/Debug/netcoreapp3.1/myConsoleApp.runtimeconfig.dev.json
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/bin/Debug/netcoreapp3.1/myConsoleApp.dll
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/bin/Debug/netcoreapp3.1/myConsoleApp.pdb
+/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/obj/Debug/netcoreapp3.1/myConsoleApp.genruntimeconfig.cache
