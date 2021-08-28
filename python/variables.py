@@ -202,9 +202,13 @@ class vari:
             print(str(get_file_to_remove) + " not found!")
     def testing_global(self):
         print(self.greetings,"from function")
+        name = "Jhon"
+        age = 34
+        text = "{} is {} years old."
+        print(text.format(name,age))
 
 v = vari()
-# v.pythonVariables()
-v.testing_global()
+v.pythonVariables()
+# v.testing_global()
 v.greetings = "Python Variables from Outside"
 v.testing_global()
