@@ -1,5 +1,7 @@
 #/usr/bin/python3
 import os
+import platform as pT
+from python_functions import python_functions as pF
 class hello:
   def __init__(self, name = 'Python Developer'):
     print("Hello " + str(name) + ", Wellcome to the world of Python Programming.");
@@ -28,13 +30,12 @@ class hello:
       print(str(getfiletoremove) + " has been deleted from the server successfuly.")
     else:
       print(str(getfiletoremove) + " File Not Found!")
-
+  def python_module_trying(self):
+    Car_Name = "Toyota Hilux"
+    fnc = pF()
+    fnc.set_car_name(Car_Name)
+    car = fnc.get_car_name()
+    print(car)
 
 H = hello();
 P = hello("Hashmi Developer");
-
-#FileNameToManipulate = "TestFile.php"
-#H.CreateAFile(FileNameToManipulate)
-#H.WriteAFile(FileNameToManipulate,"<?php echo 'Hello World' ?>")
-#H.ReadAFile(FileNameToManipulate)
-#H.RemoveAFileFromTheServer(FileNameToManipulate)

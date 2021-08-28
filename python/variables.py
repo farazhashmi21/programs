@@ -7,7 +7,8 @@ import os
 
 class vari:
     def __init__(self):
-        print("Python Variables:")
+        self.greetings = "Python Variables:"
+        print(self.greetings,"From constructor")
     def pythonVariables(self):
         x = 5
         y = "Jone"
@@ -199,12 +200,11 @@ class vari:
             os.remove(get_file_to_remove)
         else:
             print(str(get_file_to_remove) + " not found!")
-
+    def testing_global(self):
+        print(self.greetings,"from function")
 
 v = vari()
-sampleFile = "sample.txt"
-# v.Create_A_File(sampleFile)
-# v.Write_A_File(sampleFile, sampleFile)
-# v.Read_A_File(sampleFile)
-# v.Remove_A_File(sampleFile)
-v.pythonVariables()
+# v.pythonVariables()
+v.testing_global()
+v.greetings = "Python Variables from Outside"
+v.testing_global()
