@@ -5,9 +5,13 @@
     }
     public function switchLocation(){
 	    $rootLocation = "/home/farazhashmi/development/learnings/programs/php/";
-      $locations = array('wordpress' => 'wordpressweb/index.php', 'laravel' => 'laralweb/public/index.php');
+      $locations = array(
+      'wordpress' => 'wordpressweb/index.php',
+      'laravel' => 'laralweb/public/index.php',
+      "sym" => "http://hashmiprobook/php/projectSymfony/public/"
+      );
       //print_r($locations);
-      header("Location: ".$locations['laravel']);
+      header("Location: ".$locations['sym']);
     }
   }
 ?>
