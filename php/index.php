@@ -13,9 +13,16 @@
       //print_r($locations);
       header("Location: ".$locations['sym']);
     }
+    public function showDirectoryContent(){
+      $projectList = dir(getcwd());
+        echo "<ul>";
+      while(($proj = $projectList->read())){
+        echo "<li><a href='".$proj."' title = '".$proj."'>".$proj."</a></li>";
+      }
+        echo "</ul>";
+    }
   }
-?>
-<?php
-  $way = new phpWorld();
-  $way->switchLocation();
+$way = new phpWorld();
+// $way->switchLocation();
+$way->showDirectoryContent();
 ?>

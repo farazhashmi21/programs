@@ -1,4 +1,4 @@
-; Wordpress SQL File
+-- Wordpress SQL File
 
 -- Adminer 4.7.6 MySQL dump
 
