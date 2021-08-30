@@ -8,11 +8,13 @@ class index{
 	public function displ(){
 		phpinfo();
 	}
-	public function directions(){?>
+	public function directions(){
+	  $serverRoute = "http://hashmiprobook:8080/";
+	?>
 		<ol>
-			<li>Java</li>
+			<li><a href="<?php echo $serverRoute; ?>javaWorld/index.php" >Java</a></li>
 			<li>Perl</li>
-			<li><a href="http://hashmiprobook/php/index.php" title="PHP Scripting">PHP</a></li>
+			<li><a href="<?php echo $serverRoute; ?>php/index.php" title="PHP Scripting">PHP</a></li>
 			<li>Ruby</li>
 			<li>CPP</li>
 			<li>Dotnet</li>
