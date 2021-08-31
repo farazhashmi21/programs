@@ -18,9 +18,16 @@ class HomeController extends AbstractController
         ]);
     }
     /**
-     * @Route("/info", name="info")
+     * @Route("/home/info", name="info")
      */
     public function info(): Response{
-        phpinfo();
+        return new Response(phpinfo());
     }
+    /**
+     * @Route("/hello", name="hello")
+     */
+    public function hello(): Response{
+        return new Response("Hello World");
+    }
+
 }
