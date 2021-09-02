@@ -91,6 +91,16 @@ class hello:
     result = cur.fetchone()
     statement = (str(result[3]) + " have " + str(result[0]) + " " + str(result[1]) + " " + str(result[2]) + " model.")
     print(statement)
+  def remove_the_record(self, id_of_removal = 0):
+    conn = self.connect_db()
+    cur = conn.cursor()
+    sql = "delete from users where user_id = (%s);"
+    git = (id_of_removal,)
+    print(git)
+    cur.execute(sql,git)
+    conn.commit()
+    print("[",cur.rowcount,"] row(s) removed.")
+    conn.close()
 
 H = hello();
 P = hello("Hashmi Developer");
@@ -101,4 +111,5 @@ P = hello("Hashmi Developer");
 # H.show_record()
 # P.update_record()
 # P.show_record()
-H.fetch_user_record()
+# H.fetch_user_record()
+# P.remove_the_record(2323)
