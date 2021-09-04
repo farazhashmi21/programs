@@ -1,5 +1,5 @@
-Username: adminFizza
-Passowrd: Bh&*21lH
-Table Prefix: j21f7_
-Database: webworld
-Email: developerFizzaHashmi345@gmail.com
+Username: adminfarazhashmi
+Passowrd: pO90&%Ws67*$Xs
+Table Prefix: oagut_joomlaweb_
+Database: joomlaweb
+Email: developerfarazhashmi@yahoo.com

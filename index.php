@@ -9,7 +9,7 @@ class index{
 		phpinfo();
 	}
 	public function directions(){
-	  $serverRoute = "http://hashmiprobook:8080/";
+	  $serverRoute = "http://hashmiprobook:80/";
 	?>
 		<ol>
 			<li><a href="<?php echo $serverRoute; ?>javaWorld/index.php" >Java</a></li>
