@@ -1,8 +1,0 @@
-Site Name: International School
-Site Database: internationalschool
-Site Admin Name: adminFarazHashmi
-Site Admin Password: sI89&%Mj
-username: developerfarazhashmi
-password: Ct56*#lA
-Email: developerfarazhashmi@yahoo.com
-

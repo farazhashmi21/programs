@@ -1,5 +1,0 @@
-Username: adminfarazhashmi
-Passowrd: pO90&%Ws67*$Xs
-Table Prefix: oagut_joomlaweb_
-Database: joomlaweb
-Email: developerfarazhashmi@yahoo.com

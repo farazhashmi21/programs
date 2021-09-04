@@ -1,1 +1,0 @@
-puts("<h1>Assalam-O-Alaiqum</h1>")
