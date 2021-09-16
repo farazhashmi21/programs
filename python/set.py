@@ -50,8 +50,8 @@ class python_set:
 		self.for_loop_execution(fruits)
 		self.for_loop_execution(apples)
 		self.for_loop_execution(its_different)
-	def main_executer(self, exec):
-		get_exec = exec
+	def main_executer(self, execs):
+		get_exec = execs
 		get_exec.example()
 		apples = set(("Green Apple","Red Apple", "Yellow Apple"))
 		get_exec.check_for_the_value("Yellow Apple",apples)
