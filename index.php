@@ -26,6 +26,6 @@ class index{
 ?>
 <?php
   $i = new index();
-  //$i->displ();
-  $i -> directions();
+  $i->displ();
+//  $i -> directions();
 ?>
