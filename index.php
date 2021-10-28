@@ -29,10 +29,11 @@
   <div class="row">
   <div class="col">
   <div class="list-group">
-  <a href="/php/weblication/" class="list-group-item list-group-item-action">Wrapper Project Based On CodeIgniter  Framework</a>
+  <a href="/php/weblication/" class="list-group-item list-group-item-action">Wrapper Project Based On CodeIgniter Framework</a>
   <a href="/php/cake/" class="list-group-item list-group-item-action">Project Cake</a>
   <a href="/php/joomlaWeb/" class="list-group-item list-group-item-action">Project Joomla</a>
-  <a href="/php/larlog/" class="list-group-item list-group-item-action">Project Laravel</a>
+  <a href="http://larlog/" class="list-group-item list-group-item-action">Project Laravel</a>
+  <a href="http://wordpress/" class="list-group-item list-group-item-action">Project Wordpress</a>
 </div> 
   </div>
   </div>
