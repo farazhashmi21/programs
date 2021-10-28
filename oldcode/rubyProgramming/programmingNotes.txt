@@ -1,0 +1,58 @@
+// Ruby Programming Language Notes
+
+puts is a function to prints string.
+Numbers without decimal points are called Integers.
+Numbers with decimal points are called floating point numbers, or simply floats.
+Floats are most used for academic purpose.
+Calculator always uses float numbers.
+Spaces are not important in the program. They only make code easier to read.
+When you done arithmetic with integers, you will get integers answer.
+A groups of letters make up the word is called string.
+String may have punctuations, digits, symbols and spaces.
+String with no character or a white space is calle empty string.
+Spaces doesn’t matter usually, but the matters inside a string.
+Computers don’t do what you want them to do. Only what you tell them to do.
+Backslash is the ecape character. The backslash and the character is translated into a full character.
+Backslash only escape apostrophe(it’s) and backslash it self (200/=).
+Escape characters must always escape themselves.
+To store the string in your Computers memory, we nedd to give a string a name.
+programmers often refers to this process as assignment and they called the names variables.
+this variables can be just about any sequence of letters andnumbers but the first character needs to be a lower case letter.
+we can reassign different object top a variable.
+variables can point to any kind of object, not just string.
+To get the string version of an object we simply write (.to_s) after it.
+Similary (.to_i) provides us interger value.
+The 's' in puts means put string.
+gets() will always get string.
+= is acalled assignment variable and it is used for assignment values to a variable.
+== is called equal to operator which returns boolean value like true or false. it basically compare two variables values wit eaxchother.
+When strings get compared they compared their lexicographical ordering, which basicaly means their dictionary ordering.
+What comes after the if statement will be true, we run the code between the if and the end statement.
+What comes after the if statement is false, web don't execute the code inside the if block.
+Branching is the kind of comming to a fork in the code.
+You can have branches which themself have branches.
+Anything after the hash (#) symbol is called comment.
+Computers never get bored, so if you don't tell it to stop, it won't stops then.
+Loops allows you to do all kinds of interesing things.
+However they can cause a problem if you make a mistake.
+If your compuet get trap in infinite loop, just hold the key combination (CTRL+C) to break that infinite loop.
+The other logical operators are and, or and not.
+It is always a good idea to use parentheses.
+An array is just a list in your computer. Every slot in the list acts like a variable.
+You can see what object a particular slot points to and you can make it point to a different object.
+To help us find a particualr object in an array each slot is given an index number.
+Programmers and most mathematicians starts counting from zero.
+The first slot in an array is always indexed 0.
+Array limit is Total less then one.
+Ruby ways of saying "nothing", "nil" is a special object which basically means
+"Not Any Other Object" And when you puts nil it prints out nothing. Just a new line.
+Methods like "each" which "act like" loops are often called iterators.
+One thing to note about iterators is that they are always followed by (do, end).
+(While and If) never had a (do) near them.
+we only use (do) with iterators.
+Puts() treat arrays differently from other objects.
+Empty Array ([]) doesn't point to anything.
+push() add an object to the end of an array.
+pop() removes the last object from the array, and tell you what it was.
+last() is similiar to pop() in that it tells you what at the end of the array.
+push() and pop() actually changed the array.

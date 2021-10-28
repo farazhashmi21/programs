@@ -1,0 +1,13 @@
+/home/muhammadfaraz/programming/DotNet/NumberGusser/bin/Debug/netcoreapp3.1/NumberGusser
+/home/muhammadfaraz/programming/DotNet/NumberGusser/bin/Debug/netcoreapp3.1/NumberGusser.deps.json
+/home/muhammadfaraz/programming/DotNet/NumberGusser/bin/Debug/netcoreapp3.1/NumberGusser.runtimeconfig.json
+/home/muhammadfaraz/programming/DotNet/NumberGusser/bin/Debug/netcoreapp3.1/NumberGusser.runtimeconfig.dev.json
+/home/muhammadfaraz/programming/DotNet/NumberGusser/bin/Debug/netcoreapp3.1/NumberGusser.dll
+/home/muhammadfaraz/programming/DotNet/NumberGusser/bin/Debug/netcoreapp3.1/NumberGusser.pdb
+/home/muhammadfaraz/programming/DotNet/NumberGusser/obj/Debug/netcoreapp3.1/NumberGusser.csprojAssemblyReference.cache
+/home/muhammadfaraz/programming/DotNet/NumberGusser/obj/Debug/netcoreapp3.1/NumberGusser.AssemblyInfoInputs.cache
+/home/muhammadfaraz/programming/DotNet/NumberGusser/obj/Debug/netcoreapp3.1/NumberGusser.AssemblyInfo.cs
+/home/muhammadfaraz/programming/DotNet/NumberGusser/obj/Debug/netcoreapp3.1/NumberGusser.csproj.CoreCompileInputs.cache
+/home/muhammadfaraz/programming/DotNet/NumberGusser/obj/Debug/netcoreapp3.1/NumberGusser.dll
+/home/muhammadfaraz/programming/DotNet/NumberGusser/obj/Debug/netcoreapp3.1/NumberGusser.pdb
+/home/muhammadfaraz/programming/DotNet/NumberGusser/obj/Debug/netcoreapp3.1/NumberGusser.genruntimeconfig.cache

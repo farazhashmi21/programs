@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "D2FRB4Cu4qwnUyV7grdLkGn7WqBpNVyRqm19B/vJtMJHhZbmQaTlKnVwDhPgrA6SjuaisSQxWl2FI/ayZ/Pxhg==",
+  "success": true,
+  "projectFilePath": "/home/farazhashmi/development/learnings/programs/DotNet/myAspWeb/myAspWeb.csproj",
+  "expectedPackageFiles": [
+    "/home/farazhashmi/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/farazhashmi/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/home/farazhashmi/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.18/microsoft.netcore.app.host.linux-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "y/z1KDBHisIaZTami/Eu2x6lSs4nVox0W2HNfOr5193P0RZ8q3fjdFgYt/gBvMyHCncBgPbcw45bZOtLTne4pg==",
+  "success": true,
+  "projectFilePath": "/home/farazhashmi/development/learnings/programs/DotNet/myConsoleApp/myConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "/home/farazhashmi/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/farazhashmi/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/home/farazhashmi/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.18/microsoft.netcore.app.host.linux-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
