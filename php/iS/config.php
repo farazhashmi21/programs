@@ -19,11 +19,12 @@ $CFG->dboptions = array (
 );
 
 //$CFG->wwwroot   = 'http://school';
-$CFG->wwwroot   = 'http://school';
+$CFG->wwwroot   = 'http://hashmiserver/programs/php/iS/';
 //$CFG->dataroot  = '/farazData/wares/warehouse/learnings/moodledata';
 //$CFG->dataroot  = '/farazData/development/learnings/iS/siteDetails/moodledata';
 //$CFG->dataroot  = '/farazData/development/learnings/iS/siteDetails/moodledata';
-$CFG->dataroot  = '/home/farazhashmi/development/learnings/programs/php/moodledata';
+//$CFG->dataroot  = '/home/farazhashmi/development/learnings/programs/php/moodledata';
+$CFG->dataroot  = '/home/pi/hashmiServer/programs/php/moodledata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;

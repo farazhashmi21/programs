@@ -1,0 +1,6 @@
+Store Name: Presta
+Database: presta
+Username: developerfarazhashmi@yahoo.com
+Password: yU^*54sQW83a
+Database Prefix: ps_presta_
+Login URL: presta4080

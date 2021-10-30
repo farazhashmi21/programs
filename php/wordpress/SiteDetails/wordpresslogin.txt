@@ -1,8 +1,0 @@
-Wordpress Login Details:
-
-Site Title: Wordpress
-Site Database: wordpress
-Admin Username: adminfarazhashmi
-Admin Password: Te)KNRZFLpGU7Y!M5$
-Admin Email Address: developerfarazhashmi@yahoo.com
-Table Prefix: wp_wordpress_
