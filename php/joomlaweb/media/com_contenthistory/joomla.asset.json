@@ -42,7 +42,19 @@
         "nomodule": true,
         "defer": true
       },
-      "version": "2fd4faaa2cfb29a503bdea1b5ed807081c9c7f7c"
+      "version": "fb2f2f5bc7e454670d0ba240302e10b7b5900fd5"
+    },
+    {
+      "name": "com_contenthistory.admin-history-modal",
+      "type": "script",
+      "uri": "com_contenthistory/admin-history-modal.min.js",
+      "dependencies": [
+        "com_contenthistory.admin-history-modal.es5"
+      ],
+      "attributes": {
+        "type": "module"
+      },
+      "version": "b30f8d758abf751d36300bf902c235512525380d"
     },
     {
       "name": "com_contenthistory.admin-history-versions.es5",
@@ -68,18 +80,6 @@
         "type": "module"
       },
       "version": "8f9a51f762f8de8053efed6ce1af27696076cc4b"
-    },
-    {
-      "name": "com_contenthistory.admin-history-modal",
-      "type": "script",
-      "uri": "com_contenthistory/admin-history-modal.min.js",
-      "dependencies": [
-        "com_contenthistory.admin-history-modal.es5"
-      ],
-      "attributes": {
-        "type": "module"
-      },
-      "version": "711b04db4a49f437f1425f4c1524bc48b6ed3864"
     }
   ]
 }

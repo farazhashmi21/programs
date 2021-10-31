@@ -3,23 +3,23 @@
 unset($CFG);
 global $CFG;
 $CFG = new stdClass();
-
 $CFG->dbtype    = 'mysqli';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
 $CFG->dbname    = 'internationalschool';
 $CFG->dbuser    = 'developerfarazhashmi';
-$CFG->dbpass    = 'Ct56*#lA';
+$CFG->dbpass    = 'tR57@$eWSq';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
   'dbport' => '',
   'dbsocket' => '',
-  'dbcollation' => 'utf8mb4_0900_ai_ci',
+//  'dbcollation' => 'utf8mb4_0900_ai_ci',
+  'dbcollation' => '',
 );
 
 //$CFG->wwwroot   = 'http://school';
-$CFG->wwwroot   = 'http://hashmiserver/programs/php/iS/';
+$CFG->wwwroot   = 'http://hashmiserver/programs/php/iS';
 //$CFG->dataroot  = '/farazData/wares/warehouse/learnings/moodledata';
 //$CFG->dataroot  = '/farazData/development/learnings/iS/siteDetails/moodledata';
 //$CFG->dataroot  = '/farazData/development/learnings/iS/siteDetails/moodledata';

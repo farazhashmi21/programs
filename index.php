@@ -29,11 +29,11 @@
   <div class="row">
   <div class="col">
   <div class="list-group">
-  <a href="/php/weblication/" class="list-group-item list-group-item-action">Wrapper Project Based On CodeIgniter Framework</a>
-  <a href="/php/cake/" class="list-group-item list-group-item-action">Project Cake</a>
-  <a href="/php/joomlaWeb/" class="list-group-item list-group-item-action">Project Joomla</a>
-  <a href="http://larlog/" class="list-group-item list-group-item-action">Project Laravel</a>
-  <a href="http://wordpress/" class="list-group-item list-group-item-action">Project Wordpress</a>
+  <a href="http://hashmiServer/programs/php/weblication/" class="list-group-item list-group-item-action">Wrapper Project Based On CodeIgniter Framework</a>
+  <a href="http://hashmiServer/programs/php/cake/" class="list-group-item list-group-item-action">Project Cake</a>
+  <a href="http://hashmiServer/programs/php/joomlaweb/" class="list-group-item list-group-item-action">Project Joomla</a>
+  <a href="http://hashmiServer/programs/php/larlog/public/" class="list-group-item list-group-item-action">Project Laravel</a>
+  <a href="http://hashmiServer/programs/php/iS/" class="list-group-item list-group-item-action">Project International School</a>
 </div> 
   </div>
   </div>

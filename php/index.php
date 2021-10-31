@@ -5,13 +5,9 @@
     }
     public function switchLocation(){
 	    $rootLocation = "/home/pi/programs";
-      $locations = array(
-      'wordpress' => 'http://wordpressweb/',
-      'laravel' => 'http://larlog/',
-      "sym" => "http://hashmiprobook/php/projectSymfony/public/"
-      );
+      $locations = array('home' => 'http://hashmiserver');
       //print_r($locations);
-      header("Location: ".$locations['sym']);
+      header("Location: ".$locations['home']);
     }
     public function showDirectoryContent(){
       $projectList = dir(getcwd());

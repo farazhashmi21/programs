@@ -51,6 +51,19 @@
       "version": "4245ed11ab8ad661d68d219eda321b1ceaa18c99"
     },
     {
+      "name": "com_associations.admin-associations-modal.es5",
+      "type": "script",
+      "uri": "com_associations/admin-associations-modal-es5.min.js",
+      "dependencies": [
+        "core"
+      ],
+      "attributes": {
+        "nomodule": true,
+        "defer": true
+      },
+      "version": "7cca495365822d15723d7897c97b4dafccd47f5b"
+    },
+    {
       "name": "com_associations.associations-edit.es5",
       "type": "script",
       "uri": "com_associations/associations-edit-es5.min.js",
@@ -62,6 +75,19 @@
         "defer": true
       },
       "version": "4ba0f0e25e8c97e988c6d45a95cd6ad92e42160e"
+    },
+    {
+      "name": "com_associations.associations-edit",
+      "type": "script",
+      "uri": "com_associations/associations-edit.min.js",
+      "dependencies": [
+        "com_associations.associations-edit.es5"
+      ],
+      "attributes": {
+        "type": "module",
+        "defer": true
+      },
+      "version": "afe4d8fe130ac4d4ea4495d0030df60b39cc67ee"
     },
     {
       "name": "com_associations.sidebyside",
@@ -81,32 +107,6 @@
         "defer": true
       },
       "version": "0ab0fafb6a590999e680b9b1fb07e2bc3ee5fc66"
-    },
-    {
-      "name": "com_associations.admin-associations-modal.es5",
-      "type": "script",
-      "uri": "com_associations/admin-associations-modal-es5.min.js",
-      "dependencies": [
-        "core"
-      ],
-      "attributes": {
-        "nomodule": true,
-        "defer": true
-      },
-      "version": "7cca495365822d15723d7897c97b4dafccd47f5b"
-    },
-    {
-      "name": "com_associations.associations-edit",
-      "type": "script",
-      "uri": "com_associations/associations-edit.min.js",
-      "dependencies": [
-        "com_associations.associations-edit.es5"
-      ],
-      "attributes": {
-        "type": "module",
-        "defer": true
-      },
-      "version": "afe4d8fe130ac4d4ea4495d0030df60b39cc67ee"
     }
   ]
 }
