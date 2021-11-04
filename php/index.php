@@ -13,6 +13,18 @@
       $projectList = dir(getcwd());
         echo "<ul>";
       while(($proj = $projectList->read())){
+        if($proj === "."){
+          continue;
+          }
+          else if($proj === ".."){
+            continue;
+            }
+            else if($proj === "index.php"){
+              continue;
+              }
+              else if($proj === "moodledata"){
+                continue;
+                }
         echo "<li><a href='".$proj."' title = '".$proj."'>".$proj."</a></li>";
       }
         echo "</ul>";

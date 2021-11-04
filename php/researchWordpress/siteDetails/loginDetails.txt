@@ -1,0 +1,7 @@
+Site Name: Research Wordpress
+Slogan: Wordpress Skills
+Database Name: researchwordpress
+Database Table Prefix: wp_researchwordpress_
+Admin Developer: adminfarazhashmi
+Password: D0yXwaP^bG5cEtJOV!
+Admin Email: developerfaraz@yahoo.com
